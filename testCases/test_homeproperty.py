@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # from ..pageObjects.LoginPageObject import LoginPage
 from selenium import webdriver
 from test_login import TestLogin
-from pageObjects.HomePageObject import HomePage
+from pageObjects.HomePropertyPageObject import HomePage
 from selenium.webdriver.common.by import By
 from conftest import setup
 
